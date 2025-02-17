@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
+
+.first-container{
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+.second-container{
+    background-color: green;
+    top: 0;
+    right: 0;
+}
+
+.third-container{
+    background-color: yellow;
+    bottom: 0;
+    left: 0;
+}
+
+.fourth-container{
+    background-color: rgb(255, 0, 170);
+    bottom: 0;
+    right: 0;
+}
+
+.container-circle{
+    width: 25%;
+    padding-top: 25%;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square{
+    width: 40%;
+    height: 40%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.corner-square{
+    background-color: white;
+    width: 12%;
+    padding-top: 12%;
+    position: absolute;
+}
+    
+.top-left-square{
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+
+.top-right-square{
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+
+.bottom-left-square{
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+.bottom-right-square{
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+
+.center-square{
+    width: 10%;
+    padding-top: 10%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.center-circle{
+    width: 60%;
+    padding-top: 60%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
